@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: crisisagent-backend
+    runtime: node
+    rootDir: backend
+    plan: free
+    buildCommand: npm install
+    startCommand: node server.js
+    envVars:
+      - key: GROQ_API_KEY
+        sync: false          # set securely in the Render dashboard
+      - key: AFRICAS_TALKING_USERNAME
+        value: sandbox
+      - key: AFRICAS_TALKING_API_KEY
+        sync: false          # optional — leave blank if not using SMS
