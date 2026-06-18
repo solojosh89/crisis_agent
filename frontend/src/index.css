@@ -12,8 +12,8 @@ html, body, #root {
 }
 
 body {
-  background: #080808;
-  color: #fff;
+  background: #eef3f9;
+  color: #0f1f30;
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

@@ -44,10 +44,10 @@ const DISEASES = [
 ];
 
 const SEVERITY_CONFIG = {
-  MILD:     { color: '#22c55e', bg: '#071a07', border: '#0e3a0e', label: 'MILD',     emoji: '🟢' },
-  MODERATE: { color: '#eab308', bg: '#1a1500', border: '#3a2f00', label: 'MODERATE', emoji: '🟡' },
-  SEVERE:   { color: '#f97316', bg: '#1a0800', border: '#3a1500', label: 'SEVERE',   emoji: '🟠' },
-  CRITICAL: { color: '#ef4444', bg: '#1a0000', border: '#3a0000', label: 'CRITICAL', emoji: '🔴' },
+  MILD:     { color: '#15803d', bg: '#f0fdf4', border: '#bbf7d0', label: 'MILD',     emoji: '🟢' },
+  MODERATE: { color: '#b45309', bg: '#fffbeb', border: '#fde68a', label: 'MODERATE', emoji: '🟡' },
+  SEVERE:   { color: '#ea580c', bg: '#fff7ed', border: '#fed7aa', label: 'SEVERE',   emoji: '🟠' },
+  CRITICAL: { color: '#dc2626', bg: '#fef2f2', border: '#fecaca', label: 'CRITICAL', emoji: '🔴' },
 };
 
 export default function App() {
